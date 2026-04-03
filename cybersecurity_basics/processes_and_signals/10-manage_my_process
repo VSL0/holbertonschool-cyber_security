@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+# Manages the manage_my_process script
 PID_FILE="/var/run/my_process.pid"
 
 case "$1" in
