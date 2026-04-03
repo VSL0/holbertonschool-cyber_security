@@ -12,8 +12,8 @@ case "$1" in
         if [ -f "$PID_FILE" ]; then
             kill "$(cat "$PID_FILE")"
             rm "$PID_FILE"
-            echo "manage_my_process stopped"
         fi
+        echo "manage_my_process stopped"
         ;;
     restart)
         if [ -f "$PID_FILE" ]; then
