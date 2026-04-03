@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
 # Stops 4-to_infinity_and_beyond process
-PID=$(pgrep -f 4-to_infinity_and_beyond)
-kill "$PID" 2>/dev/null
-sleep 1
+pkill -f "4-to_infinity_and_beyond" > /dev/null 2>&1
 printf "process killed"
