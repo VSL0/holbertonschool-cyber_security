@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# Script that is invincible to SIGTERM
-trap "echo I am invincible!!!" SIGTERM
+# smth too long to explain
+trap "echo 'I am invincible!!!'" SIGTERM
+
 while true
 do
-    echo "To infinity and beyond"
-    sleep 2
-done
+	echo To "infinity and beyond" 
+	sleep 2
+done 
